@@ -4,6 +4,8 @@
 Presentation given by Bram Moolenaar at Google, 2007 February 13
 https://www.moolenaar.net/habits_2007.pdf
 
+https://youtu.be/p6K4iIMlouI?feature=shared
+
 * [habits_2007.pdf](habits_2007.pdf)
 
 
