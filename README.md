@@ -27,13 +27,13 @@ Not by me. Found from googling. A lot cheatsheet available, pick the one you lik
 
 3. Recording and playback
    ```
-   record:   qq - do your things - q
-   playback: @q  or `[num]`@q
+   qq - do your things - q  # record
+   @q  or `[num]`@q         # playback
    ```
 
-4. Block select
+4. Block select and paste
    ```
-   Ctrl-v  <arrow key> 
+   Ctrl-v  <arrow key>  y  p
    ```
 
 5. Mark line number in register, use later
@@ -41,20 +41,34 @@ Not by me. Found from googling. A lot cheatsheet available, pick the one you lik
    ma
    mb
    'a  # go to a
-   :'a,'bs/aaa/bbb/g    # execute substitube for a to b range
+   :'a,'bs/aaa/bbb/g    # execute substitube only for lines between a to b range
    ```
 
 6. Use bufdo to apply changes to multiple files. Use with caution. make backup first if needed.
    ```
+   vim file#1 file#2 ....
    :autowrite
-   :bufdo <cmd>
+   :bufdo %s/pin/port/g
+   :wq        # save the last file
    ```
 
 7. split screen is handy
    ```
    Ctrl-w s   # window split horizontally
    Ctrl-w v   # window split vertically
+   Ctrl-w c   # close window
    ```
    
+8. vimrc
+   ```
+   set ch=2
+   set guioptions-=T
+   set gfn=DejaVu\ Sans\ Mono\ 13
+   colorscheme desert
+   set tabstop=4
+   set shiftwidth=4
+   set nu
+   ```
 
+9. 
 
