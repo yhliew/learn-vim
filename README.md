@@ -47,7 +47,7 @@ Not by me. Found from googling. A lot cheatsheet available, pick the one you lik
 6. Use bufdo to apply changes to multiple files. Use with caution. make backup first if needed.
    ```
    vim file#1 file#2 ....
-   :autowrite
+   :set autowrite
    :bufdo %s/pin/port/g
    :wq        # save the last file
    ```
@@ -70,4 +70,5 @@ Not by me. Found from googling. A lot cheatsheet available, pick the one you lik
    set nu
    ```
 
+9. find matching block marker pair "%"
 
