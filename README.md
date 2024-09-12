@@ -59,7 +59,7 @@ Not by me. Found from googling. A lot cheatsheet available, pick the one you lik
    Ctrl-w c   # close window
    ```
    
-8. vimrc
+8. customize your vim: vimrc
    ```
    set ch=2
    set guioptions-=T
@@ -70,5 +70,4 @@ Not by me. Found from googling. A lot cheatsheet available, pick the one you lik
    set nu
    ```
 
-9. 
 
